@@ -1,0 +1,41 @@
+1. Karena data adalah suatu fakta, kemudian fakta tersebut diolah agar menjadi suatu informasi yang memiliki nilai. Oleh sebab itu 
+data sangat dibutuhkan untuk mendapatkan suatu informasi
+2. Manfaat:
+	-Sebagai komponen utama dalam system informasi
+	-mengatasi kerangkapan data
+	-mengatasi kesulitan dalam mengakses data
+	-menyusun format yang standart dari sebuah data
+   Contoh:
+	-Sistem databe mahasiswa UMS
+3. Acuan pemilihan database?
+	-Spesifikasi data
+	-Pertimbangan keamanan
+	-Bahasa query
+	-Kecocokan dengan tipe aplikasi
+	-Pendeskripsian kebutuhan informasi data
+4. Istilah terminologi dalam Database?
+	-Database = kumpulan file-file yang mempunyai kaitan antara satu file dengan file lainnya sehingga membentuk suatu bangunan data.
+	-Table = kumpulan data (nilai) yang diorganisasikan k edalam baris (record) dan kolom (field). 
+		Masing-masing kolom memiliki nama spesifik dan unik.
+	-Field = kolom dari sebuah table. Memiliki ukuran type data tertentu yang menentukan bagaimana data nantinya tersimpan
+	-Record = kumpulan isi elemen data (atribut) yang saling berhubungan menginformasikan tentang suatu entitas secara lengkap.
+5. Secara Manual =
+	-Program Oriented
+	-Kaku
+	-Adanya kerangkapan data
+   Secara Database =
+	-Data oriented
+	-Luwes
+	-Terkontrolnya kerangkapan data
+6. Mengapa butuh DBMS?
+	-Digunakan untuk membangun sebuah system basis data yang berbasis komputerisasi.
+	-Membantu dalam pemeliharaan dan pengolahan kumpulan data dalam jumlah besar.
+	-Tidak menimbulkan kekacauan dan dapat digunakan oleh pengguna sesuai dengan kebutuhan.
+7.
+	-Id_nasabah meiliki field int atau integer adalah tipe data yang digunakan untuk menampung berupa angka.
+		Contoh : int(11) = maksimum data yang dimasukkan adalah 11 digit. Data ke-12 dst tidak dibaca.
+	-Char atau Varchar adalah tipe data untuk menampung data yang bertipe karakter atau alphabet (a-z).
+		Contoh : varchar(45) = maksimum data yang dimasukkan adalah 45 digit. Data ke-46 dst tidak dibaca.
+	-Masing-masing field diatur sesuai dengan tipe data yang dibutuhkan. Ukuran tipe data pada field diatur menggunakan digit maksimum 
+	yang dapat dimasukkan kedalam record. Untuk mengatur maksimum default menggunakan sepanjang 255 digit. 
+	Tipe data yang diatur menggunakan tipe integer berarti record dapat diisikan angka saja. Sedangkan tipe data varchar menggunakan tipe data string.
